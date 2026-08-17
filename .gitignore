@@ -1,0 +1,4 @@
+*.zip
+*.apk
+!module/BAuxiliary-UnderPlayer-Test.apk
+work/
