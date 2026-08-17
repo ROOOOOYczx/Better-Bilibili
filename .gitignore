@@ -1,4 +1,5 @@
 *.zip
 *.apk
 !module/BAuxiliary-UnderPlayer-Test.apk
+!module/Better-Bilibili.apk
 work/
