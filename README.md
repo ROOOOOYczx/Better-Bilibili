@@ -6,11 +6,10 @@
 
 - `module/BAuxiliary-UnderPlayer-Test.apk`：LSPosed 模块。它会在 Bilibili 视频详情页隐藏 UnderPlayer 广告，并收缩因广告过滤产生的推荐广告空壳；首页视频流不启用这套处理。
 - `src/HookInit.java`：模块源码。
-- 原始 Bilibili APK 和模块组合包：在 GitHub Releases 中提供。原始 APK 体积超过 GitHub 普通仓库的单文件限制，因此不直接提交到 Git 历史。
 
 ## 安装
 
-1. 安装原始 Bilibili APK。
+1. 先自行安装 Bilibili APK。
 2. 在 LSPosed 中安装 `BAuxiliary-UnderPlayer-Test.apk`。
 3. 启用模块，并只勾选 `tv.danmaku.bili`。
 4. 强制停止并重新打开 Bilibili。
@@ -20,5 +19,4 @@
 ## 注意
 
 - 这是针对 Bilibili 9.7.0 / Android 16 测试机验证的模块，后续版本可能需要重新适配。
-- 原始 APK 的使用与再分发请遵守 Bilibili 的许可和相关法律规定。
 - 本项目不修改或绕过账号权限、付费内容或视频版权限制。
