@@ -17,7 +17,7 @@
 
 1. 先自行安装 Bilibili APK。
 2. 在 LSPosed 中安装 `Better-Bilibili.apk`。
-3. 启用模块，并只勾选 `tv.danmaku.bili`。
+3. 启用模块，并只勾选 `tv.danmaku.bili`（国服b站）。
 4. 强制停止并重新打开 Bilibili。
 
 本模块没有独立启动界面；安装后需要从 LSPosed 管理器启用。
