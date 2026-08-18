@@ -2,10 +2,20 @@
 
 这是一个面向已 Root Android 手机的 Bilibili 功能增强模块，安装后在 LSPosed 中显示为 `Better Bilibili`。
 
+当前发布版本：`1.1.1`（适配 Bilibili 9.7.0 / Android 16 测试环境）。
+
 ## 内容
 
 - `module/Better-Bilibili.apk`：LSPosed 模块。它包含当前版本的详情页 UnderPlayer 广告处理、推荐卡片空壳修复，以及 BAuxiliary 1.9.3 的兼容功能核心。
 - `src/HookInit.java`：模块源码。
+
+## 1.1.1 更新
+
+- 修复重新签名后 BAuxiliary 提示“模块被篡改，停止 Hook”的问题。
+- 保留 BAuxiliary UnderPlayer 及其它兼容功能入口。
+- 对新版本 Bilibili 中已删除的旧版 `Splash` 类做安全跳过，避免 LSPosed 兼容入口抛出异常。
+- 改进视频下方广告隐藏后的布局收缩，减少空白区域。
+- 修复广告过滤对首页推荐视频卡片造成空白的问题。
 
 ## 功能
 
